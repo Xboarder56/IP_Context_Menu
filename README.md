@@ -6,7 +6,7 @@ This repo contains the custom IP context menu I utilize with my QRadar instance 
 # Install Guide
 1. Using SSH, log in to the QRadar Console as the root user.
 2. cp /opt/qradar/conf/ip_context_menu.xml /opt/qradar/conf/ip_context_menu.xml.bak
-3. wget -nv -O /opt/qradar/conf/ip_context_menu.xml %RAW GITHUB LINK HERE%
+3. wget -nv -O /opt/qradar/conf/ip_context_menu.xml https://raw.githubusercontent.com/Xboarder56/IP_Context_Menu/master/ip_context_menu.xml
 4. systemctl restart tomcat
 
 # Change Log
