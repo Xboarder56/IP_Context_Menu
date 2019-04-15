@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This is a configuration file to add custom actions into the IP address right-click menu.
+
+Entries must be of one of the following formats:
+
+        <menuEntry name="{Name}" description="{Description}" url="{URL}" requiredCapabilities="{Required Capabilities}"/>
+        <menuEntry name="{Name}" description="{Description}" exec="{Command}" requiredCapabilities="{Required Capabilities}"/>
+
+The available fields are described as follows:
+
+        Name                                                            The name of the entry. This is the text that will be displayed in the right-click menu
+
+        Description (Optional)                          The description of the entry. This is the text that will be displayed in the tooltip of the entry
+
+        URL                                                             A web address to open in a new window. You should use the placeholder %IP% in this field to refer
+                                                                                to the IP address that is being right-clicked.
+
+        Command                                                         A command that should be executed on the console. The output of the command will be displayed in
+                                                                                a new window. You should use the placeholder %IP% in this field to refer to the IP address that
+                                                                                is being right-clicked.
+
+        Required Capabilities (Optional)        Any capabilities the user is required to have in order to access this option, comma-delimited.
+                                                                                (for example, "ADMIN"). If the logged-in user does not have all capabilities listed, the entry
+                                                                                will not appear.
+
+To add your entries into the right-click menu, simply copy this file into /opt/qradar/conf and
+restart tomcat.
+-->
+<contextMenu>
+        <menuEntry name="AbuseIPDB" url="https://www.abuseipdb.com/check/%IP%" />
+        <menuEntry name="AlienVault OTX" url="https://otx.alienvault.com/indicator/ip/%IP%" />
+        <menuEntry name="Censys" url="https://censys.io/ipv4/%IP%" />
+        <menuEntry name="Cisco Talos" url="https://www.talosintelligence.com/reputation_center/lookup?search=%IP%" />
+        <menuEntry name="Google" url="https://viz.greynoise.io/ip/%IP%" />
+        <menuEntry name="GreyNoise" url="https://www.google.com/search?q=%IP%" />
+        <menuEntry name="McAfee" url="https://www.mcafee.com/enterprise/en-us/threat-intelligence.iptc.html?vid=%IP%" />
+        <menuEntry name="SANS ISC" url="https://isc.sans.edu/ipinfo.html?ip=%IP%" />
+        <menuEntry name="Shodan" url="https://www.shodan.io/host/%IP%" />
+        <menuEntry name="Traceroute" exec="/bin/traceroute %IP%" />
+        <menuEntry name="Threat Crowd" url="https://threatcrowd.org/ip.php?ip=%IP%" />
+        <menuEntry name="ThreatMiner" url="https://www.threatminer.org/host.php?q=%IP%" />
+        <menuEntry name="Virus Total" url="https://www.virustotal.com/#/ip-address/%IP%" />
+        <menuEntry name="X-Force Exchange Lookup" url="https://exchange.xforce.ibmcloud.com/#/ip/%IP%" />
+</contextMenu>
