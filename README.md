@@ -4,21 +4,21 @@ Custom IP Context Menu for QRadar (Right Click Menu)
 This repo contains the custom IP context menu I utilize with my QRadar instance running in my homelab. These OSINT sources I utilize daily when performing incident response. If you have any questions you can create an issue for the GitHub project or open a question/reply on the IBM QRadar CE forms located at: https://ibm.biz/qradarceforums
 
 # OSINT Sources:
-  - AbuseIPDB
-  - AlienVault OTX
-  - Censys
-  - Cisco Talos
-  - Google
-  - GreyNoise
-  - McAfee
-  - SANS ISC
-  - Shodan
-  - Traceroute
-  - Threat Crowd
-  - ThreatMiner
-  - Virus Total
-  - X-Force Exchange Lookup
-  
+  - [AbuseIPDB](https://www.abuseipdb.com/)
+  - [AlienVault OTX](https://otx.alienvault.com/)
+  - [Censys](https://censys.io/)
+  - [Cisco Talos](https://talosintelligence.com/)
+  - [Google](https://google.com)
+  - [GreyNoise](https://greynoise.io/)
+  - [McAfee](https://www.mcafee.com/enterprise/en-us/threat-center.html)
+  - [SANS ISC](https://isc.sans.edu/ipinfo.html)
+  - [Shodan](https://www.shodan.io/)
+  - [Traceroute](https://en.wikipedia.org/wiki/Traceroute)
+  - [Threat Crowd](https://www.threatcrowd.org/)
+  - [ThreatMiner](https://www.threatminer.org/)
+  - [Virus Total](https://www.virustotal.com/)
+  - [X-Force Exchange Lookup](https://exchange.xforce.ibmcloud.com/)
+
 # Install Guide
 1. Using SSH, log in to the QRadar Console as the root user.
 2. cp /opt/qradar/conf/ip_context_menu.xml /opt/qradar/conf/ip_context_menu.xml.bak
@@ -26,6 +26,7 @@ This repo contains the custom IP context menu I utilize with my QRadar instance 
 4. systemctl restart tomcat
 
 # Change Log
+  - 04-18-2019 - Added MxToolbox ARIN Lookup and HackerTarget ReverseIP Lookup
   - 04-14-2019 - Initial creation of custom IP Context Menu
 
 # Sources/References

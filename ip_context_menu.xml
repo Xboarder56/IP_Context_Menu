@@ -34,7 +34,9 @@ restart tomcat.
         <menuEntry name="Cisco Talos" url="https://www.talosintelligence.com/reputation_center/lookup?search=%IP%" />
         <menuEntry name="Google" url="https://viz.greynoise.io/ip/%IP%" />
         <menuEntry name="GreyNoise" url="https://www.google.com/search?q=%IP%" />
+        <menuEntry name="HackerTarget RerverseIP" url="https://api.hackertarget.com/reverseiplookup/?q=%IP%" />
         <menuEntry name="McAfee" url="https://www.mcafee.com/enterprise/en-us/threat-intelligence.iptc.html?vid=%IP%" />
+        <menuEntry name="MxToolbox ARIN" url="http://www.mxtoolbox.com/SuperTool.aspx?action=arin%3a%IP%" />
         <menuEntry name="SANS ISC" url="https://isc.sans.edu/ipinfo.html?ip=%IP%" />
         <menuEntry name="Shodan" url="https://www.shodan.io/host/%IP%" />
         <menuEntry name="Traceroute" exec="/bin/traceroute %IP%" />
