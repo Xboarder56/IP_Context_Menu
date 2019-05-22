@@ -28,6 +28,7 @@ This repo contains the custom IP context menu I utilize with my QRadar instance 
 4. systemctl restart tomcat
 
 # Change Log
+  - 05-22-2019 - Fixed mapping greynoise and google to the wrong lookup links
   - 04-18-2019 - Added MxToolbox ARIN Lookup and HackerTarget ReverseIP Lookup
   - 04-14-2019 - Initial creation of custom IP Context Menu
 
