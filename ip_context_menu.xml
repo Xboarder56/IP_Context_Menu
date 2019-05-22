@@ -32,8 +32,8 @@ restart tomcat.
         <menuEntry name="AlienVault OTX" url="https://otx.alienvault.com/indicator/ip/%IP%" />
         <menuEntry name="Censys" url="https://censys.io/ipv4/%IP%" />
         <menuEntry name="Cisco Talos" url="https://www.talosintelligence.com/reputation_center/lookup?search=%IP%" />
-        <menuEntry name="Google" url="https://viz.greynoise.io/ip/%IP%" />
-        <menuEntry name="GreyNoise" url="https://www.google.com/search?q=%IP%" />
+        <menuEntry name="Google" url="https://www.google.com/search?q=%IP%" />
+        <menuEntry name="GreyNoise" url="https://viz.greynoise.io/ip/%IP%" />
         <menuEntry name="HackerTarget RerverseIP" url="https://api.hackertarget.com/reverseiplookup/?q=%IP%" />
         <menuEntry name="McAfee" url="https://www.mcafee.com/enterprise/en-us/threat-intelligence.iptc.html?vid=%IP%" />
         <menuEntry name="MxToolbox ARIN" url="http://www.mxtoolbox.com/SuperTool.aspx?action=arin%3a%IP%" />
