@@ -11,6 +11,7 @@ This repo contains the custom IP context menu I utilize with my QRadar instance 
   - [Google](https://google.com)
   - [GreyNoise](https://greynoise.io/)
   - [HackerTarget](https://HackerTarget.com/)
+  - [CriminalIP](https://www.criminalip.io/)
   - [McAfee](https://www.mcafee.com/enterprise/en-us/threat-center.html)
   - [MxToolbox](https://mxtoolbox.com)
   - [SANS ISC](https://isc.sans.edu/ipinfo.html)
