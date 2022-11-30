@@ -6,11 +6,13 @@ This repo contains the custom IP context menu I utilize with my QRadar instance 
 # OSINT Sources:
   - [AbuseIPDB](https://www.abuseipdb.com/)
   - [AlienVault OTX](https://otx.alienvault.com/)
+  - [Criminalip](https://www.criminalip.io/)
   - [Censys](https://censys.io/)
   - [Cisco Talos](https://talosintelligence.com/)
   - [Google](https://google.com)
   - [GreyNoise](https://greynoise.io/)
   - [HackerTarget](https://HackerTarget.com/)
+  - [CriminalIP](https://www.criminalip.io/)
   - [McAfee](https://www.mcafee.com/enterprise/en-us/threat-center.html)
   - [MxToolbox](https://mxtoolbox.com)
   - [SANS ISC](https://isc.sans.edu/ipinfo.html)
@@ -28,6 +30,7 @@ This repo contains the custom IP context menu I utilize with my QRadar instance 
 4. systemctl restart tomcat
 
 # Change Log
+  - 30-11-2022 - Added Criminalip Search Engines
   - 05-22-2019 - Fixed mapping greynoise and google to the wrong lookup links
   - 04-18-2019 - Added MxToolbox ARIN Lookup and HackerTarget ReverseIP Lookup
   - 04-14-2019 - Initial creation of custom IP Context Menu
